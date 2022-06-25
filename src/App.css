@@ -1,0 +1,8 @@
+div {
+    position: relative;
+}
+
+p .navbar{
+    position: sticky;
+    top: 0;
+  }
