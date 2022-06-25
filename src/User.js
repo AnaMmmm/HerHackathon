@@ -2,7 +2,7 @@ import React from 'react';
 
 const User = ({name, email, department, id, image}) => {
     return (
-        <div className='flex tc bg-purple o-80 dib br3 pa1 ma4 grow bw2 shadow-5'>
+        <div className='flex tc bg-purple o-80 dib br3 pa1 ma4 grow bw2 shadow-5 text-light'>
             <img className='rounded' alt ='employeePhoto' src={image} />
             <div className='pa3 mt2'>
                 <h2>{name}</h2>
